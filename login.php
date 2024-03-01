@@ -13,6 +13,10 @@
 </head>
 
 <body>
+
+<h1>Login Form </h1>
+
+
     <?php
     if (array_key_exists('button1', $_POST)) {
         button1();
@@ -35,7 +39,7 @@
                 <input type="password" name="password" placeholder="password">
             </div>
             <div class="form-group">
-                <input type="text" name="fullname" placeholder="Full name">
+                <input type="text" name="repeat-password" placeholder="repeat-password">
             </div>
             <div class="form-group">
                 <input type="text" name="fullname" placeholder="submit">
