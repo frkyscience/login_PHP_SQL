@@ -72,12 +72,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <style>
-        .wrapper {
-            width: 360px;
-            padding: 20px;
-        }
-    </style>
 </head>
 
 <body>
@@ -98,7 +92,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
-            <p>Heb je geen account ? <a href="register.php">Registreer hier.</a>.</p>
+            <p>Heb je geen account ? <a href="###.php">Registreer hier.</a></p>
         </form>
     </div>
 </body>
